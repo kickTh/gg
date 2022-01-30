@@ -274,30 +274,29 @@ function Toolse()
   gg.toast("กำหนด สำเร็จ")
 end
 
+
 SPEEDA = "🔴〘•กำลังปิดใช้งาน•〙"
 function AZHD()
  if SPEEDA == "🔴〘•กำลังปิดใช้งาน•〙" then
- gg.clearResults()
-  io.output(fileData):write([[
-9999
-Var #7AA9B4ADC0|7aa9b4adc0|10|3e99999a|0|0|0|0|r-xp|/data/app/com.olzhas.carparking.multyplayer-1/base.apk|24cadc0
-]]):close()
-  
+gg.setVisible(false)
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1,080,033,280", gg.TYPE_DWORD)
+  gg.getResults(100)
+  gg.editAll("1,050,253,722", gg.TYPE_DWORD)
+  gg.clearResults()
   gg.sleep(50)
   gg.clearList()
-  gg.clearResults()
   gg.toast("เปิด")
  SPEEDA = "🔵〘•เปิดใช้งาน•〙"
  elseif SPEEDA == "🔵〘•เปิดใช้งาน•〙" then
- gg.clearResults()
-  io.output(fileData):write([[
-9999
-Var #7AA9B4ADC0|7aa9b4adc0|10|40600000|0|0|0|0|r-xp|/data/app/com.olzhas.carparking.multyplayer-1/base.apk|24cadc0
-]]):close()
-  
+  gg.setVisible(false)
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1,050,253,722", gg.TYPE_DWORD)
+  gg.getResults(100)
+  gg.editAll("1,080,033,280", gg.TYPE_DWORD)
+  gg.clearResults()
   gg.sleep(50)
   gg.clearList()
-  gg.clearResults()
   gg.toast("ปิด")
   SPEEDA = "🔴〘•กำลังปิดใช้งาน•〙"
  end
