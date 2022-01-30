@@ -3,18 +3,16 @@ gg.toast("🛡️SCRIPT CAR PARKING🛡️")
 function START()
 vip = gg.choice({
 	"👨‍💻ฟังชั่น แฮ็กเงิน 💵 แฮ็กเหรียญ 💰",
-	"ปลดล็อครถเติม [ รออัพเดท ]",
-	"🚘ฟังชั่น ดัดแปลงรถ เพิ่มความเร็วรถ",
+	"🎃ฟังชั่น รถ 64BIT",
 	SPEEDA.."เร่งความเร็วรถสำหรับการแข่งขัน ⚡",
 	 "━━━━━━━━━━━━━\n🌚 ออกจากสคริปต์\n์━━━━━━━━━━━━━"
 },nil," ━━━━━━━━━━━━━━━━━━━━━\n สร้างสคริปต์โดย : Pbth Kick\n เกม : Car Parking \n เวอร์ชั่น 4.8.5.2\n━━━━━━━━━━━━━━━━━━━━━")
 
  if vip == nil then else end
  if vip == 1 then AZDXXXX() end
- if vip == 2 then DFHJHGKKKITSS() end
- if vip == 3 then CARVIPC() end
- if vip == 4 then AZHD() end
- if vip == 5 then Exit() end
+ if vip == 2 then GETXXX() end
+ if vip == 3 then AZHD() end
+ if vip == 4 then Exit() end
  GHOST = -1
  end
 
@@ -31,6 +29,8 @@ HACXQ = gg.choice({
  if HACXQ == nil then else end
  if HACXQ == 1 then AZ() end
  if HACXQ == 2 then BB() end
+ if HACXQ == 3 then START() end
+ if HACXQ == 4 then Exit() end
 GHOST = -1
  end
 
@@ -284,8 +284,6 @@ gg.setVisible(false)
   gg.getResults(100)
   gg.editAll("3.5", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.sleep(50)
-  gg.clearList()
   gg.toast("เปิด")
  SPEEDA = "🔵〘•เปิดใช้งาน•〙"
  elseif SPEEDA == "🔵〘•เปิดใช้งาน•〙" then
@@ -295,14 +293,122 @@ gg.setVisible(false)
   gg.getResults(100)
   gg.editAll("0.3", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.sleep(50)
-  gg.clearList()
   gg.toast("ปิด")
   SPEEDA = "🔴〘•กำลังปิดใช้งาน•〙"
  end
 end
 
+
+function GETXXX()
+HACXDGETXXXQ = gg.choice({
+	"🔥ฟังชั่น ดัดแปลงรถ เพิ่มความเร็วรถ",
+	"🔥ฟังชั่น ปลดล็อครถเติม [ รออัพเดท ]",
+	"🔥ฟังชั่น ล้อรถ UFO",
+    "🔥์ฟังชั่น ถอดหลังคารถ ลอย",
+},nil,"━━━━━━━━━━━━━━━━━━━━━\n สร้างสคริปต์โดย : Pbth Kick\n━━━━━━━━━━━━━━━━━━━━━")
+
+ if HACXDGETXXXQ == nil then else end
+ if HACXDGETXXXQ == 1 then CARVIPC() end
+ if HACXDGETXXXQ == 2 then DFHJHGKKKITSS() end
+ if HACXDGETXXXQ == 3 then SADRRR() end
+ if HACXDGETXXXQ == 4 then yhkodjkufjjugg() end
+GHOST = -1
+ end
+
+
+function CARVIPC()
+  CARVIP = gg.choice({
+    "รถคันที่ #18FIAT 131",
+    "รถคันที่ #76 BMW W8",
+    "🔙 กลับ ",
+    "🗑️ออกจากสคริปต์"
+  }, nil, "กำลังอยู่ช่วงหาค่า รถต่างๆ ")
+  if CARVIP == nil then else end
+  if CARVIP == 1 then FIAT()  end
+  if CARVIP == 2 then BMWWEIGHT()  end
+  if CARVIP == 3 then START() end
+  if CARVIP == 4 then Exit() end
+  GHOST = -1
+  end
+
+
   
+
+
+
+  function FIAT()
+gg.setVisible(false)
+gg.toast("▂                                         10% ")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.toast("▂▃                                   20% ")
+gg.searchNumber("300",gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll("414",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("▂▃▅                             30% ")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("410",gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll("2254",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("▂▃▅▆                      40% ")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("7000",gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll("1000",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("▂▃▅▆██                   60% ")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("3000",gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll("2120",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("▂▃▅▆█████     85% ")
+gg.setRanges(gg.REGION_CODE_APP,gg.REGION_CODE_SYSTEM)
+gg.searchNumber("0.1",gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.toast("▂▃▅▆███████100%")
+gg.editAll("0.0000009",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("กดรี 2 ครั้ง")
+end
+
+function BMWWEIGHT()
+gg.setVisible(false)
+gg.toast("▂                                         10% ")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.toast("▂▃                                   20% ")
+gg.searchNumber("620",gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll("414",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("▂▃▅                             30% ")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("800",gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll("2254",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("▂▃▅▆                      40% ")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("7000",gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll("1000",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("▂▃▅▆██                   60% ")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("2500",gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll("2120",gg.TYPE_FLOAT)
+gg.clearResults(1000)
+gg.toast("▂▃▅▆█████     85% ")
+gg.setRanges(gg.REGION_CODE_APP,gg.REGION_CODE_SYSTEM)
+gg.searchNumber("0.1",gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.toast("▂▃▅▆███████100%")
+gg.editAll("0.0000009",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("กดรี 2 ครั้ง")
+end
 
 
 function DFHJHGKKKITSS()
@@ -473,100 +579,48 @@ gg.clearResults(39)
 gg.toast('กดซื้อ')
 end
 
-function CARVIPC()
-  CARVIP = gg.choice({
-    "รถคันที่ #18FIAT 131",
-    "รถคันที่ #76 BMW W8",
-    "🔙 กลับ ",
-    "🗑️ออกจากสคริปต์"
-  }, nil, "กำลังอยู่ช่วงหาค่า รถต่างๆ ")
-  if CARVIP == nil then else end
-  if CARVIP == 1 then FIAT()  end
-  if CARVIP == 2 then BMWWEIGHT()  end
-  if CARVIP == 3 then START() end
-  if CARVIP == 4 then Exit() end
-  GHOST = -1
+function SADRRR()
+gg.setVisible(false)
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.alert("ไปตั้งค่าทุกอย่างให้สูงสุดแล้วรอสักครู่")
+  gg.sleep(5000)
+  gg.searchNumber('-10', gg.TYPE_FLOAT)
+  gg.refineNumber('-10', gg.TYPE_FLOAT)
+  gg.getResults(1000)
+  gg.editAll('-90', gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber('0.30', gg.TYPE_FLOAT)
+  gg.refineNumber('0.30', gg.TYPE_FLOAT)
+  gg.getResults(250)
+  gg.editAll('0.99', gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast('ทำ ล้อ UFO สำเร็จ')
+end
+
+function yhkodjkufjjugg()
+gg.setVisible(false)
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.alert("ตอนนี้เลือกโรงรถแล้วไปที่ชุดแต่งรอบคัน")
+  gg.sleep(4500)
+  gg.alert("2 บัฟเฟอร์หมายเลข")
+  gg.sleep(4500)
+  gg.searchNumber("1",gg.TYPE_DWORD)
+  gg.getResults(100)
+  gg.alert("3 บัฟเฟอร์หมายเลข")
+  gg.sleep(4500)
+  gg.refineNumber("2",gg.TYPE_DWORD)
+  gg.getResults(100)
+  gg.alert("4 บัฟเฟอร์หมายเลข")
+  gg.sleep(4500)
+  gg.refineNumber("3",gg.TYPE_DWORD)
+  gg.getResults(2)
+  gg.alert("ไปที่รถที่คุณต้องการวางท้ายรถด้านบนและเลือกหลังคาหลังคา สามารถ ปรับสีได้ตามใจชอบ ของคุณ")
+  gg.sleep(25000)
+  gg.editAll("6",gg.TYPE_DWORD)
+  gg.clearResults(2)
+  gg.alert("ตอนนี้ซื้อชั้นสูงสุดที่คุณเลือกแล้วออกจากที่นี่ไปเลือกรถคันอื่นและรับรถเก่าของคุณคืน")
+  gg.toast("ปรับตั้งค่า สำเร็จ")
   end
-
-
-
-
-
-
-
-  function FIAT()
-gg.setVisible(false)
-gg.toast("▂                                         10% ")
-gg.setRanges(gg.REGION_CODE_APP)
-gg.toast("▂▃                                   20% ")
-gg.searchNumber("300",gg.TYPE_FLOAT)
-gg.getResults(1000)
-gg.editAll("414",gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("▂▃▅                             30% ")
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("410",gg.TYPE_FLOAT)
-gg.getResults(1000)
-gg.editAll("2254",gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("▂▃▅▆                      40% ")
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("7000",gg.TYPE_FLOAT)
-gg.getResults(1000)
-gg.editAll("1000",gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("▂▃▅▆██                   60% ")
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("3000",gg.TYPE_FLOAT)
-gg.getResults(1000)
-gg.editAll("2120",gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("▂▃▅▆█████     85% ")
-gg.setRanges(gg.REGION_CODE_APP,gg.REGION_CODE_SYSTEM)
-gg.searchNumber("0.1",gg.TYPE_FLOAT)
-gg.getResults(1000)
-gg.toast("▂▃▅▆███████100%")
-gg.editAll("0.0000009",gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("กดรี 2 ครั้ง")
-end
-
-function BMWWEIGHT()
-gg.setVisible(false)
-gg.toast("▂                                         10% ")
-gg.setRanges(gg.REGION_CODE_APP)
-gg.toast("▂▃                                   20% ")
-gg.searchNumber("620",gg.TYPE_FLOAT)
-gg.getResults(1000)
-gg.editAll("414",gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("▂▃▅                             30% ")
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("800",gg.TYPE_FLOAT)
-gg.getResults(1000)
-gg.editAll("2254",gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("▂▃▅▆                      40% ")
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("7000",gg.TYPE_FLOAT)
-gg.getResults(1000)
-gg.editAll("1000",gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("▂▃▅▆██                   60% ")
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("2500",gg.TYPE_FLOAT)
-gg.getResults(1000)
-gg.editAll("2120",gg.TYPE_FLOAT)
-gg.clearResults(1000)
-gg.toast("▂▃▅▆█████     85% ")
-gg.setRanges(gg.REGION_CODE_APP,gg.REGION_CODE_SYSTEM)
-gg.searchNumber("0.1",gg.TYPE_FLOAT)
-gg.getResults(1000)
-gg.toast("▂▃▅▆███████100%")
-gg.editAll("0.0000009",gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("กดรี 2 ครั้ง")
-end
 
 
 
