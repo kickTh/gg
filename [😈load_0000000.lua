@@ -4,6 +4,7 @@ function START()
 vip = gg.choice({
 	"👨‍💻ฟังชั่น แฮ็กเงิน 💵 แฮ็กเหรียญ 💰",
 	"🎃ฟังชั่น รถ 64BIT",
+	"📖ฟังชั่น เกม",
 	SPEEDA.."เร่งความเร็วรถสำหรับการแข่งขัน ⚡",
 	 "━━━━━━━━━━━━━\n🌚 ออกจากสคริปต์\n์━━━━━━━━━━━━━"
 },nil," ━━━━━━━━━━━━━━━━━━━━━\n สร้างสคริปต์โดย : Pbth Kick\n เกม : Car Parking \n เวอร์ชั่น 4.8.5.2\n━━━━━━━━━━━━━━━━━━━━━")
@@ -11,8 +12,9 @@ vip = gg.choice({
  if vip == nil then else end
  if vip == 1 then AZDXXXX() end
  if vip == 2 then GETXXX() end
- if vip == 3 then AZHD() end
- if vip == 4 then Exit() end
+ if vip == 3 then GETXXDSACX() end
+ if vip == 4 then AZHD() end
+ if vip == 5 then Exit() end
  GHOST = -1
  end
 
@@ -40,13 +42,13 @@ GHOST = -1
 
 function AZ()
 AA = gg.choice({
-	"10M",
-	"20M",
-	"30M",
-	"40M",
-	"50M",
-	"กำหนดเอง",
-    "ลบเงินทั้งหมด",
+	"🩸10 ล้าน",
+	"🩸20 ล้าน",
+	"🩸30 ล้าน",
+	"🩸40 ล้าน",
+	"🩸50 ล้าน",
+	"🛠️กำหนดเอง",
+    "🌀ลบเงินทั้งหมด",
     "↩️กลับ",
     "🗑️ออกจากสคริปต์"
 },nil,"👩‍💻ฟังชั่น แฮ็กเงิน")
@@ -73,7 +75,7 @@ gg.searchNumber('60', gg.TYPE_FLOAT)
 gg.getResults(200)
 gg.editAll('340000', gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast('10🇲')
+gg.toast('แฮ็กเวลาเพิ่มเงินสำเร็จ')
 end
 
 function sd()
@@ -83,7 +85,7 @@ gg.searchNumber('60', gg.TYPE_FLOAT)
 gg.getResults(200)
 gg.editAll('670000', gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast('20🇲')
+gg.toast('แฮ็กเวลาเพิ่มเงินสำเร็จ')
 end
 
 function hg()
@@ -93,7 +95,7 @@ gg.searchNumber('60', gg.TYPE_FLOAT)
 gg.getResults(200)
 gg.editAll('1000000', gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast('30🇲')
+gg.toast('แฮ็กเวลาเพิ่มเงินสำเร็จ')
 end
 
 function mm()
@@ -103,7 +105,7 @@ gg.searchNumber('60', gg.TYPE_FLOAT)
 gg.getResults(200)
 gg.editAll('1340000', gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast('40🇲')
+gg.toast('แฮ็กเวลาเพิ่มเงินสำเร็จ')
 end
 
 function kk()
@@ -113,7 +115,7 @@ gg.searchNumber('60', gg.TYPE_FLOAT)
 gg.getResults(200)
 gg.editAll('1670000', gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast('50🇲')
+gg.toast('แฮ็กเวลาเพิ่มเงินสำเร็จ')
 end
 
 function MAXXXX()
@@ -125,7 +127,7 @@ function MAXXXX()
   {[1]=""})
   gg.editAll(input[1] ,gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("กำหนด สำเร็จ")
+  gg.toast("กำหนดแฮ็กเวลาเพิ่มเงินสำเร็จ")
 end
 
 function MAX()
@@ -135,17 +137,17 @@ gg.searchNumber('60', gg.TYPE_FLOAT)
 gg.getResults(200)
 gg.editAll('999999999', gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast('ลบ สำเร็จ 🇲 🇦 🇽')
+gg.toast('กำหนดแฮ็กเวลาลบสำเร็จ')
 end
 
 function BB()
   DF = gg.choice({
-    " 100🄺 🄲🄾🄸🄽🅂",
-    " 200🄺 🄲🄾🄸🄽🅂",
-    " 300🄺 🄲🄾🄸🄽🅂",
-    " 400🄺 🄲🄾🄸🄽🅂",
-    " 500🄺 🄲🄾🄸🄽🅂",
-    "กำหนดเอง",
+    "🌕 1 แสน",
+    "🌕 2 แสน",
+    "🌕 3 แสน",
+    "🌕 4 แสน",
+    "🌕 5 แสน",
+    "🌀กำหนดเอง",
     "↩️กลับ",
 	"🗑️ออกจากสคริปต์"
   }, nil, "👩‍💻ฟังชั่น แฮ็กเหรียญทอง")
@@ -283,7 +285,11 @@ if SPEEDA == "🔴〘•กำลังปิดใช้งาน•〙" then
       gg["getResults"](100)
       gg["editAll"]("3.4100999", gg["TYPE_FLOAT"])
       gg["clearResults"]()
-      gg["toast"]("⭐เปิด")
+      gg["searchNumber"]("0D;1D;2D;3D;4D;5D;6D;7D;8D;9D;16D;17D;18D;19D;20D;21D;22D;23D;24D;25D:77", gg["TYPE_DWORD"], false,   gg["SIGN_EQUAL"], 0, -1)
+      gg["refineNumber"]("4;5;6;7;8;9", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+      gg["editAll"]("0.0003;-1;0.0003;-1;0.0003;-1", [gg.TYPE_DWORD])
+      gg["processResume"]()
+      gg["toast"]("✅เปิด")
  SPEEDA = "🔵〘•เปิดใช้งาน•〙"
  elseif SPEEDA == "🔵〘•เปิดใช้งาน•〙" then
       gg["setRanges"](gg["REGION_CODE_APP"])
@@ -292,11 +298,49 @@ if SPEEDA == "🔴〘•กำลังปิดใช้งาน•〙" then
       gg["getResults"](100)
       gg["editAll"]("0.3", gg["TYPE_FLOAT"])
       gg["clearResults"]()
+      gg["searchNumber"]("0.0003;-1;0.0003;-1;0.0003;-1", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+      gg["refineNumber"]("0.0003;-1;0.0003;-1;0.0003;-1", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+      gg["getResults"](100)
+      gg["editAll"]("4;5;6;7;8;9", gg["TYPE_FLOAT"])
       gg["toast"]("❌ปิด")
  SPEEDA = "🔴〘•กำลังปิดใช้งาน•〙"
  end
 end
 
+
+
+function GETXXDSACX()
+DGKOPSHOP = gg.choice({
+    "🍁ฟังชั่น ดัดแปลงชื่อยาว",
+    "↩️กลับ",
+    "🗑️ออกจากสคริปต์"
+},nil,"━━━━━━━━━━━━━━━━━━━━━\n สร้างสคริปต์โดย : Pbth Kick\n━━━━━━━━━━━━━━━━━━━━━")
+
+ if DGKOPSHOP == nil then else end
+ if DGKOPSHOP == 1 then GETXXDSACXDGKOPSHOP() end
+ if DGKOPSHOP == 2 then HAHASXD() end
+ if DGKOPSHOP == 3 then START() end
+ if DGKOPSHOP == 4 then Exit() end
+GHOST = -1
+ end
+
+function GETXXDSACXDGKOPSHOP()
+  gg.setVisible(false)
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.toast("พิมพ์ 1 ")
+  gg.sleep(2500)
+  gg.searchNumber("12;1", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.toast("พิมพ์ 123")
+  gg.sleep(2700)
+  gg.refineNumber("12;3", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("12", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  input=gg.prompt({"ใส่ตัวเลขเท่าไหร่ก็ได้ที่คุณอยากกำหนด"},
+  {[1]=""})
+  gg.editAll(input[1] ,gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.alert("ตอนนี้ลบชื่อเก่าของ|คุณสามารถตั้งชื่อของคุณได้นานเท่าที่คุณต้องการ")
+end
 
 function GETXXX()
 HACXDGETXXXQ = gg.choice({
@@ -304,6 +348,8 @@ HACXDGETXXXQ = gg.choice({
 	"🔥ฟังชั่น ปลดล็อครถเติม [ รออัพเดท ]",
 	"🔥ฟังชั่น ล้อรถ UFO",
     "🔥์ฟังชั่น ถอดหลังคารถ ลอย",
+   	"↩️กลับ",
+    "🗑️ออกจากสคริปต์"
 },nil,"━━━━━━━━━━━━━━━━━━━━━\n สร้างสคริปต์โดย : Pbth Kick\n━━━━━━━━━━━━━━━━━━━━━")
 
  if HACXDGETXXXQ == nil then else end
@@ -311,6 +357,8 @@ HACXDGETXXXQ = gg.choice({
  if HACXDGETXXXQ == 2 then DFHJHGKKKITSS() end
  if HACXDGETXXXQ == 3 then SADRRR() end
  if HACXDGETXXXQ == 4 then yhkodjkufjjugg() end
+ if HACXDGETXXXQ == 5 then START() end
+ if HACXDGETXXXQ == 6 then Exit() end
 GHOST = -1
  end
 
@@ -470,22 +518,22 @@ DFHJHGKKKIT=gg.choice({
 "🗑️ออกจากสคริปต์"
  }, nil, "กำลังอยู่ช่วงทดลองใช้งาน👻")
   if DFHJHGKKKIT == nil then else end
-if DFHJHGKKKIT ==  1then ZA()  end
-if DFHJHGKKKIT ==  2 then  ZB()        end
-if DFHJHGKKKIT ==  3  then  ZC()       end
-if DFHJHGKKKIT ==  4   then   ZD()     end
-if DFHJHGKKKIT ==  5     then  ZE()    end
-if DFHJHGKKKIT ==  6     then  ZF()    end
-if DFHJHGKKKIT ==  7   then     ZG()   end
-if DFHJHGKKKIT ==  8    then    ZN()   end
-if DFHJHGKKKIT ==  9    then     ZI()  end
-if DFHJHGKKKIT ==  10   then   ZL()     end
-if DFHJHGKKKIT ==  11  then   ZM()      end
-if DFHJHGKKKIT ==  12   then    ZNN()    end
-if DFHJHGKKKIT ==  13  then    ZO()     end
-if DFHJHGKKKIT ==  14   then   ZP()     end
+if DFHJHGKKKIT ==  1 then ZA()  end
+if DFHJHGKKKIT ==  2 then ZB()  end
+if DFHJHGKKKIT ==  3 then ZC()  end
+if DFHJHGKKKIT ==  4 then ZD()  end
+if DFHJHGKKKIT ==  5 then ZE()  end
+if DFHJHGKKKIT ==  6 then ZF()  end
+if DFHJHGKKKIT ==  7 then ZG()  end
+if DFHJHGKKKIT ==  8 then ZN()  end
+if DFHJHGKKKIT ==  9 then ZI()   end
+if DFHJHGKKKIT == 10 then ZL()  end
+if DFHJHGKKKIT == 11 then ZM()    end
+if DFHJHGKKKIT == 12 then ZNN()   end
+if DFHJHGKKKIT == 13 then ZO()     end
+if DFHJHGKKKIT == 14 then ZP()     end
 if DFHJHGKKKIT == 15 then START() end
- if DFHJHGKKKIT == 16  then Exit() end
+if DFHJHGKKKIT == 16 then Exit()    end
  GHOST = -1
  end
 
