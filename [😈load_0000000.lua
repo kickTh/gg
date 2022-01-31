@@ -276,23 +276,24 @@ end
 
 
 SPEEDA = "🔴〘•กำลังปิดใช้งาน•〙"
-function AZHD()
- if SPEEDA == "🔴〘•กำลังปิดใช้งาน•〙" then
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("0.3", gg.TYPE_FLOAT)
-  gg.getResults(100)
-  gg.editAll("3.5", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.toast("เปิด")
+ function AZHD()
+if SPEEDA == "🔴〘•กำลังปิดใช้งาน•〙" then
+      gg["setRanges"](gg["REGION_CODE_APP"])
+      gg["searchNumber"]("0.3", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+      gg["getResults"](100)
+      gg["editAll"]("3.4100999", gg["TYPE_FLOAT"])
+      gg["clearResults"]()
+      gg["toast"]("⭐เปิด")
  SPEEDA = "🔵〘•เปิดใช้งาน•〙"
  elseif SPEEDA == "🔵〘•เปิดใช้งาน•〙" then
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("3.5", gg.TYPE_FLOAT)
-  gg.getResults(100)
-  gg.editAll("0.3", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.toast("ปิด")
-  SPEEDA = "🔴〘•กำลังปิดใช้งาน•〙"
+      gg["setRanges"](gg["REGION_CODE_APP"])
+      gg["searchNumber"]("3.4100999", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+      gg["refineNumber"]("3.4100999", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+      gg["getResults"](100)
+      gg["editAll"]("0.3", gg["TYPE_FLOAT"])
+      gg["clearResults"]()
+      gg["toast"]("❌ปิด")
+ SPEEDA = "🔴〘•กำลังปิดใช้งาน•〙"
  end
 end
 
