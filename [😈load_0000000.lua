@@ -278,20 +278,20 @@ end
 SPEEDA = "🔴〘•กำลังปิดใช้งาน•〙"
 function AZHD()
  if SPEEDA == "🔴〘•กำลังปิดใช้งาน•〙" then
-gg.setVisible(false)
+  gg.setVisible(false)
   gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("0.3", gg.TYPE_FLOAT)
+  gg.searchNumber("0.30000001192", gg.TYPE_FLOAT)
   gg.getResults(100)
-  gg.editAll("3.5", gg.TYPE_FLOAT)
+  gg.editAll("3.40000009537", gg.TYPE_FLOAT)
   gg.clearResults()
   gg.toast("เปิด")
  SPEEDA = "🔵〘•เปิดใช้งาน•〙"
  elseif SPEEDA == "🔵〘•เปิดใช้งาน•〙" then
   gg.setVisible(false)
   gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("3.0039999485", gg.TYPE_FLOAT)
+  gg.searchNumber("3.40000009537", gg.TYPE_FLOAT)
   gg.getResults(100)
-  gg.editAll("0.3", gg.TYPE_FLOAT)
+  gg.editAll("0.30000001192", gg.TYPE_FLOAT)
   gg.clearResults()
   gg.toast("ปิด")
   SPEEDA = "🔴〘•กำลังปิดใช้งาน•〙"
