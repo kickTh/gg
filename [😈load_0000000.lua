@@ -287,7 +287,7 @@ if SPEEDA == "🔴〘•กำลังปิดใช้งาน•〙" then
       gg["clearResults"]()
       gg["searchNumber"]("0D;1D;2D;3D;4D;5D;6D;7D;8D;9D;16D;17D;18D;19D;20D;21D;22D;23D;24D;25D:77", gg["TYPE_DWORD"], false,   gg["SIGN_EQUAL"], 0, -1)
       gg["refineNumber"]("4;5;6;7;8;9", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
-      gg["editAll"]("0.0003;-1;0.0003;-1;0.0003;-1", [gg.TYPE_DWORD])
+      gg["editAll"]("0.0003;-1;0.0003;-1;0.0003;-1", gg.["TYPE_FLOAT"]])
       gg["processResume"]()
       gg["toast"]("✅เปิด")
  SPEEDA = "🔵〘•เปิดใช้งาน•〙"
