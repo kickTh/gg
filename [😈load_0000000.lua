@@ -515,7 +515,6 @@ gg.toast("1..2...3")
 gg.sleep(250)
 gg.toast("ค้นหา........")
 gg.refineNumber("1",gg.TYPE_FLOAT)
-gg.getResults(100)
 input=gg.prompt({"โค้ดสีฟ้า: 200;200;-200\nโค้ดสีแดงออกดำ: 100;-100;-100\nโค้ดสีเขียวออกเหลือง: 100;100;-100\nโค้ดสีฟ้าออกขาว: 100;100;100\nโค้ดสีน้ำเงิน: -200;-200;200\nโค้ดสีฟ้าเขียว: -100;100;-100"},
 {[1]=""})
 gg.editAll(input[1] ,gg.TYPE_FLOAT)
@@ -682,7 +681,6 @@ gg.toast("1..2...3")
 gg.sleep(250)
 gg.toast("ค้นหา........")
 gg.refineNumber("1",gg.TYPE_FLOAT)
-gg.getResults(100)
 input=gg.prompt({"โค้ดสีฟ้า: 200;200;-200\nโค้ดสีเหลือง: 100;-100;100\nโค้ดสีแดง: -200;-200;200\nโค้ดสีม่วง: -200;200;200"},
 {[1]=""})
 gg.editAll(input[1] ,gg.TYPE_FLOAT)
@@ -737,25 +735,83 @@ gg.setVisible(false)
 
 function CARVIPC()
   CARVIP = gg.choice({
-    "รถคันที่ #18 FIAT 131",
-    "รถคันที่ #76 BMW W8",
-    "รถคันที่ #104 Euroline Fullbox",
+    "💀รถคันที่ #0 Free",
+    "💀รถคันที่ #18 FIAT 131",
+    "💀รถคันที่ #49 350z",
+    "💀รถคันที่ #76 BMW W8",
+    "💀รถคันที่ #104 Euroline Fullbox",
     "🔙 กลับ ",
     "🗑️ออกจากสคริปต์"
   }, nil, "กำลังอยู่ช่วงหาค่า รถต่างๆ ")
   if CARVIP == nil then else end
-  if CARVIP == 1 then FIAT()  end
-  if CARVIP == 2 then BMWWEIGHT()  end
-  if CARVIP == 3 then EurolineFullbox()  end
-  if CARVIP == 4 then START() end
-  if CARVIP == 5 then Exit() end
+  if CARVIP == 1 then FrEe()  end
+  if CARVIP == 2 then FIAT()  end
+  if CARVIP == 3 then BMWWEIGHT()  end
+  if CARVIP == 4 then BMWWEIGHTFIAT()  end
+  if CARVIP == 5 then EurolineFullbox()  end
+  if CARVIP == 6 then START() end
+  if CARVIP == 7 then Exit() end
   GHOST = -1
   end
 
 
 
-
-
+function FrEe()
+gg.setVisible(false)
+gg.toast("▂                                         10% ")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.toast("▂▃                                   20% ")
+gg.searchNumber("175",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1000)
+gg.editAll("1695",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("▂▃▅                             30% ")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("260",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1000)
+gg.editAll("2899",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("▂▃▅▆                      40% ")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("5500",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1000)
+gg.editAll("1001",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("▂▃▅▆██                   60% ")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1400",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1000)
+gg.editAll("2501",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP,gg.REGION_CODE_SYSTEM)
+gg.searchNumber("0.1",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1000)
+gg.editAll("9.999999E-29",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("5.00",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("3.10",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("▂▃▅▆█████     85% ")
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("2.66",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0.03",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1.91",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0.00",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1.39",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("▂▃▅▆███████100%")
+gg.getResults(100)
+gg.editAll("6",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("กดรี 2 ครั้ง")
+end
 
   function FIAT()
 gg.setVisible(false)
@@ -787,7 +843,64 @@ gg.clearResults()
 gg.setRanges(gg.REGION_CODE_APP,gg.REGION_CODE_SYSTEM)
 gg.searchNumber("0.1",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(1000)
-gg.editAll("0.0000009",gg.TYPE_FLOAT)
+gg.editAll("9.999999E-29",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("5.00",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("3.10",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("▂▃▅▆█████     85% ")
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("2.66",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0.03",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1.91",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0.00",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1.39",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("▂▃▅▆███████100%")
+gg.getResults(100)
+gg.editAll("6",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("กดรี 2 ครั้ง")
+end
+
+ function BMWWEIGHTFIAT()
+gg.setVisible(false)
+gg.toast("▂                                         10% ")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.toast("▂▃                                   20% ")
+gg.searchNumber("305",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1000)
+gg.editAll("925",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("▂▃▅                             30% ")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("360",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1000)
+gg.editAll("1049",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("▂▃▅▆                      40% ")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("6800",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1000)
+gg.editAll("5500",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("▂▃▅▆██                   60% ")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("3000",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1000)
+gg.editAll("5600",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP,gg.REGION_CODE_SYSTEM)
+gg.searchNumber("0.1",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1000)
+gg.editAll("9.999999E-29",gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("5.00",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -844,7 +957,7 @@ gg.clearResults(1000)
 gg.setRanges(gg.REGION_CODE_APP,gg.REGION_CODE_SYSTEM)
 gg.searchNumber("0.1",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(1000)
-gg.editAll("0.0000009",gg.TYPE_FLOAT)
+gg.editAll("9.999999E-29",gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("5.00",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -901,7 +1014,7 @@ gg.clearResults()
 gg.setRanges(gg.REGION_CODE_APP,gg.REGION_CODE_SYSTEM)
 gg.searchNumber("0.1",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(1000)
-gg.editAll("0.0000009",gg.TYPE_FLOAT)
+gg.editAll("9.999999E-29",gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("5.00",gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
